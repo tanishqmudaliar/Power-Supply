@@ -1,0 +1,23 @@
+Source:,C:\Users\tanis\Documents\KiCad\7.0\projects\Power Supply\Power Supply.kicad_sch,,,,,,,,,,,,,,,,,,,,,
+Date:,17-12-2023 18:32,,,,,,,,,,,,,,,,,,,,,
+Tool:,Eeschema 7.0.7,,,,,,,,,,,,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,,,,,,,,,,,
+Component Count:,21,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,Availability,Check_prices,Description,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,MF,MP,PARTREV,Package,Price,Purchase-URL,STANDARD,Sim.Device,Sim.Pins,SnapEDA_Link
+1,1,C1,5000 uF 50V,Device:C_Polarized,,~,,,,,,,,,,,,,,,,
+2,1,C2,0.01 uF,Device:C,,~,,,,,,,,,,,,,,,,
+3,4,"C3, C4, C5, C6",220 uF 50V,Device:C_Polarized,,~,,,,,,,,,,,,,,,,
+4,1,D1,BR68 - 800V 6A BRIDGE RECTIFIER,Device:D_Bridge_+-AA,,~,,,,,,,,,,,,,,,,
+5,1,D2,12V 5W ZENER DIODE,Device:D_Zener,,~,,,,,,,,,,,,,,,,
+6,2,"D3, D4",IN5822,Device:D,,~,,,,,,,,,,,,,,D,1=K 2=A,
+7,2,"L1, L2",33 uH 3.5A,Device:L,,~,,,,,,,,,,,,,,,,
+8,1,R1,680 OHMS 20W,Device:R,,~,,,,,,,,,,,,,,,,
+9,2,"R2, R4",1K OHMS 1/2W,Device:R,,~,,,,,,,,,,,,,,,,
+10,1,RV1,5K OHMS 1/2W,Device:R_Potentiometer,,~,,,,,,,,,,,,,,,,
+11,1,RV2,2K OHMS 1/2W,Device:R_Potentiometer,,~,,,,,,,,,,,,,,,,
+12,1,T1,230V 60HZ TO 15V 5A,Device:Transformer_1P_1S,,~,,,,,,,,,,,,,,,,
+13,1,T2,2N3055,2N3055:2N3055,2N3055:TO3,,,In Stock,https://www.snapeda.com/parts/2N3055/STMicroelectronics/view-part/?ref=eda,Bipolar (BJT) Transistor NPN 60 V 15 A - 115 W Chassis Mount TO-3,,,STMicroelectronics,2N3055,,TO-3 STMicroelectronics,None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699771&manufacturer=STMicroelectronics&part_name=2N3055&search_term=2n3055,,,,https://www.snapeda.com/parts/2N3055/STMicroelectronics/view-part/?ref=snap
+14,2,"VR1, VR2",LM2576T-ADJ,LM2576T-ADJ:LM2576T-ADJ,LM2576T-ADJ:TO170P1067X483X1651-5,,,In Stock,https://www.snapeda.com/parts/LM2576T-ADJ/Texas+Instruments/view-part/?ref=eda,"SIMPLE SWITCHER&reg; 40V, 3A Low Component Count Step-Down Regulator 5-TO-220 -40 to 125",Texas Instruments,16.51mm,Texas Instruments,LM2576T-ADJ,E,TO-220-5 Texas Instruments,None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4792117&manufacturer=Texas Instruments&part_name=LM2576T-ADJ&search_term=lm2596t adj,IPC-7351B,,,https://www.snapeda.com/parts/LM2576T-ADJ/Texas+Instruments/view-part/?ref=snap

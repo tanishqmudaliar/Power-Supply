@@ -1,0 +1,7 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#temporary
+fp-info-cache
+fp-lib-table
+/Power Supply-backups
+Power Supply.xml
